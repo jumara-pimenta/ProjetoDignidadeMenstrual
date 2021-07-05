@@ -18,7 +18,7 @@ const Equipe = () => {
         <div className="card--equipe">
 
           <div className="card--integrante">
-          <a href="https://www.linkedin.com/in/jumara-souza-pimenta/" target="_blank">
+          <a href="https://www.linkedin.com/in/jumara-souza-pimenta/" target="_blank" rel="noreferrer">
             <img
               className="img--card"
               src={imgJumara}
@@ -30,7 +30,7 @@ const Equipe = () => {
           </div>
 
           <div className="card--integrante">
-            <a href="https://www.linkedin.com/in/klinger-santos/" target="_blank">
+            <a href="https://www.linkedin.com/in/klinger-santos/" target="_blank" rel="noreferrer">
             <img
               className="img--card"
               src={imgKlinger}
@@ -42,7 +42,7 @@ const Equipe = () => {
           </div>
 
           <div className="card--integrante">
-            <a href="https://www.linkedin.com/in/fernanda-pimenta-aa710719a/" target="_blank">
+            <a href="https://www.linkedin.com/in/fernanda-pimenta-aa710719a/" target="_blank" rel="noreferrer">
             <img
               className="img--card"
               src={imgFernanda}
@@ -66,7 +66,7 @@ const Equipe = () => {
           </div>
 
           <div className="card--integrante">
-            <a href="https://www.linkedin.com/in/camilly-cardoso-9a7878214/" target="_blank">
+            <a href="https://www.linkedin.com/in/camilly-cardoso-9a7878214/" target="_blank" rel="noreferrer">
             <img
               className="img--card"
               src={imgCamilly}

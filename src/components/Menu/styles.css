@@ -23,14 +23,14 @@
 }
 
 .link {
-  color: wheat;
+  color: #ffffff;
   text-decoration: none;
 }
 
 .imgLogo {
   display: flex;
   width: 12rem;
-  height: 12rem;
+  height: 6rem;
 }
 
 @media (max-width: 768px) {

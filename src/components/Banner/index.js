@@ -4,46 +4,34 @@ import "./styles.css";
 
 const Banner = () => {
   return (
-    <div className="main">
+    <section className="main">
       <div>
-        <h1>Conheça o Projeto</h1>
+        <h1>Conheça o menstRUA.</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-          bibendum felis sed elit vulputate viverra. Vivamus et justo ac leo
-          rutrum lacinia a vehicula nibh. Sed a mauris eget justo porta suscipit
-          tempor a sem. Pellentesque habitant morbi tristique senectus et netus
-          et malesuada fames ac turpis egestas. Curabitur gravida non urna et
-          venenatis. In in lacus vitae nisi convallis fermentum. Maecenas cursus
-          lacinia consequat. In hac habitasse platea dictumst. Phasellus
-          ultricies gravida velit, non euismod erat lobortis eget. Mauris justo
-          felis, dignissim at orci at, vehicula tempor sapien. Curabitur ut leo
-          et tellus dignissim mattis. Integer ac metus turpis. Integer dapibus
-          massa vitae felis venenatis, nec pellentesque nisi facilisis. Sed
-          dignissim, metus ut ornare hendrerit, sem ipsum gravida felis, quis
-          maximus quam urna eu diam. Vivamus mattis ligula vel ipsum tincidunt
-          condimentum.
+          O menstRUA. é um projeto social criado com a intenção de ajudar, mesmo que minimamente, as pessoas que menstruam e vivem em situação de rua a terem um período menstrual com mais dignidade. A realidade dessas pessoas e de milhares de outras que se encontram em situação de vulnerabilidade social no Brasil é a pobreza menstrual. Mas você sabe o que é pobreza menstrual? 
+        </p>
+        <p>
+        A pobreza menstrual é caracterizada pela falta de acesso a recursos, infraestrutura e até conhecimento por parte de pessoas que menstruam em relação a cuidados envolvendo a própria menstruação.
         </p>
 
         <p>
-          Proin sit amet sapien eget elit volutpat hendrerit. Sed in enim elit.
-          Integer mattis iaculis nunc, id consectetur nisi porttitor in. Vivamus
-          condimentum egestas mauris ut varius. Sed convallis mauris urna.
-          Vivamus tristique ac nulla at tempor. Nulla facilisi. Nulla vitae
-          metus condimentum, mollis dolor vitae, interdum diam. Nullam eleifend
-          ligula sit amet diam pharetra, nec auctor tellus consectetur. Aenean
-          ex nisl, varius eget augue eu, laoreet sagittis ligula. Vestibulum nec
-          turpis quis ex eleifend condimentum quis eu elit. Nullam porta justo
-          ac libero venenatis posuere. Suspendisse cursus tristique nisl sit
-          amet molestie. Praesent eget neque sit amet diam dignissim dictum nec
-          ut ligula.
+        Segundo o estudo “Pobreza Menstrual no Brasil: desigualdade e violações de direitos”, realizado pela <a href="https://www.unicef.org/brazil/relatorios/pobreza-menstrual-no-brasil-desigualdade-e-violacoes-de-direitos" target="_blank" rel="noreferrer">UNICEF (2021)</a>, 713 mil meninas vivem sem acesso a banheiro ou chuveiro em seu domicílio e mais de 4 milhões não têm acesso a itens mínimos de cuidados menstruais nas escolas.
         </p>
+        <p>
+          As pessoas que menstruam e vivem em situação de rua são diretamente afetadas pela pobreza menstrual. Além de todas as dificuldades de quem não tem onde morar, elas têm de lidar com as exigências do período menstrual sem dinheiro, água, privacidade ou atendimento médico apropriados.
+        </p>
+        <p>Levando esses fatores em consideração o menstRUA. traz a proposta de arrecadar produtos de higiene pessoal, principalmente absorventes, para serem distribuídos a pessoas que menstruam e vivem em situação de rua.</p>
       </div>
-
-      <img
+      <div>
+       <img
         src={imgVitrine}
         alt="Ilustração de uma menina olhando uma vitrine com absorventes"
-      />
-    </div>
+       />
+      </div>
+      <div className="cards">
+
+      </div>
+    </section>
   );
 };
 

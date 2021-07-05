@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import ImgFace from "../../assets/facebook.svg";
 import ImgInsta from "../../assets/instagram.svg";
 import ImgIN from "../../assets/linkedin.svg";
-import Logo from "../../assets/logo.png";
+import Logo from "../../assets/logo2.svg";
 
 import "./styles.css";
 
@@ -43,13 +43,13 @@ const Footer = () => {
             <p className="titulo--redes">Siga-nos:</p>
           </div>
           <div>
-            <a href="https://github.com/jumara-pimenta" target="_blank">
+            <a href="https://www.facebook.com/projetomenstrua" target="_blank" rel="noreferrer">
               <img src={ImgFace} alt="Imagem da logo do Facebook" />
             </a>
-            <a href="https://www.instagram.com/jumarapimenta/" target="_blank">
+            <a href="https://www.instagram.com/projetomenstrua/" target="_blank" rel="noreferrer">
               <img src={ImgInsta} alt="Imagem da logo do Instagram" />
             </a>
-            <a href="https://www.linkedin.com/in/jumara-souza-pimenta/" target="_blank">
+            <a href="https://www.linkedin.com/company/menstrua" target="_blank" rel="noreferrer">
               <img src={ImgIN} alt="Imagem da logo do LinkedIN" />
             </a>
           </div>
@@ -57,7 +57,7 @@ const Footer = () => {
       </div>
 
       <div className="rodape__cc">
-        <p> 2021 | Site desenvolvido por Jumara Pimenta</p>
+        <p> 2021 | Site desenvolvido por <a className="autora" href="https://github.com/jumara-pimenta" target="_blank" rel="noreferrer">Jumara Pimenta</a></p>
       </div>
     </>
   );
