@@ -8,3 +8,7 @@ O projeto era de escolha livre. Buscando ideias para o site eu resolvi criar um 
 
 Para a construção do projeto eu me desafiei a utilizar o React, utilizando também HTML, CSS, JavaScript e Node. 
 
+## Site
+
+Para visualizar o site <a href="https://menstrua.netlify.app" target="_blank">clique aqui<a/>.
+
