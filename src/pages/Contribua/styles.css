@@ -1,14 +1,16 @@
 .main--contribua{
     background-color: white;
-    height: 40rem;
+    height: 42rem;
 }
 
 .texto--contribua{
-    color: black;
+    color: #4D203E;
     padding: 2rem;
     text-align: center;
-    margin-left: 10rem;
-    margin-right: 10rem;
+    margin-left: 12rem;
+    margin-right: 12rem;
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .formasDePagamento{
@@ -24,24 +26,23 @@
 
 }
 
-
 @media (max-width: 768px) {
     .main--contribua{
         background-color: white;
-        height: 38rem;
+        height: 35rem;
+        margin-top: 2rem;
     }
 
     .texto--contribua{
-        color: black;
         padding: 2rem;
         text-align: center;
-        margin-left: 9rem;
-        margin-right: 9rem;
-        font-size: 1rem;    
+        margin-left: 5rem;
+        margin-right: 5rem;
+        font-size: 0.9rem;    
     }
 
     .imgPagamento {
-        width: 12rem;
+        width: 11rem;
         margin: 1rem;
         border-radius: 2rem;
     }
@@ -51,14 +52,15 @@
 @media (max-width: 425px) {
     .main--contribua{
         background-color: white;
-        height: 65rem;
+        height: 62rem;
+        margin-top: 0;
     }
 
     .texto--contribua{
-        color: black;
         margin-left: 0.5rem;
         margin-right: 0.5rem;
-        font-size: 1rem;    
+        font-size: 0.8rem;    
+        margin-top: 0;
     }
 
     .formasDePagamento{
@@ -72,7 +74,6 @@
         margin: 1rem;
         border-radius: 2rem;
     }
-
 
 }
 

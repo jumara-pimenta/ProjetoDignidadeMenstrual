@@ -6,9 +6,8 @@
 
 body{
     color: rgb(255, 255, 255);
-    background: linear-gradient(329.54deg, hsl(0deg 4% 5%) 0%, #0d0c0c 100%);
+    background: linear-gradient(329.54deg, rgb(245, 211, 211) 0%, #ffffff 100%);
+    padding-top: 96px;
+    font-family: 'Open Sans', sans-serif;
 }
 
-body, input, button, textarea{
-    font: 600 18px Nunito, sans-serif;
-}

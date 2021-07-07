@@ -5,24 +5,29 @@
     align-items: center;
     width: 100%;
     height: 100%;
-    background-color: rgb(255, 255, 255);
-	font-family: 'Open Sans', sans-serif;
+    background-color: rgb(245, 211, 211);
 }
 
 .main h1 {
     font-size: 45px;
-    font-weight: 900;
+    font-weight: 700;
     line-height: 50px;
     color: #000;
 }
 
 .main img {
-    width: 70%;
+    width: 40%;
 	max-width: 1100px;
 	height: 100%;
 	max-height: 680px;
 	border-radius: 2rem;
-	margin-left: 8rem;
+	margin-left: 10rem;
+}
+
+.main h2 {
+	font-size: 0.6rem;
+	text-align: center;
+	color: black;
 }
 
 .main p {
@@ -30,9 +35,103 @@
     font-size: 20px;
     line-height: 34px;
     color: #000;;
-    width: 600px;
+    width: 700px;
 
 }
+
+.sectionTwo {
+	background-color: #4D203F;
+    padding: 2rem;
+}
+
+.sectionTwo h3 {
+	color: #E72A60;
+	font-size: 30px;
+	font-weight: 900;
+    line-height: 50px;
+	text-align: center;
+}
+
+.sectionTwo p {
+	text-align: center;
+	font-size: 20px;
+	margin-left: 25rem;
+	margin-right: 27rem;
+	padding: 1rem;
+}
+
+.sectionThree {
+	background-color: #702B4C;
+	height: 21.8rem;
+	padding: 2rem;
+}
+
+.sectionThree p {
+	text-align: center;
+	font-size: 20px;
+	margin-left: 25rem;
+	margin-right: 27rem;
+	padding: 2rem;
+}
+
+.link-externo {
+	color: white;
+}
+
+hr{
+	width: 50rem;
+	height: 2px;
+	color: #E72A60;
+	margin: 0 auto;
+	background: #E72A60;
+	border: 0px;
+}
+
+.sectionFour {
+	background-color: #A33C5F;
+	display: flex;
+	align-items: center;
+	padding-left: 3rem;
+	height: 20rem;
+}
+
+.sectionFour img {
+	width: 70%;
+	max-width: 1100px;
+	height: 100%;
+	max-height: 680px;
+	border-radius: 0.2rem;
+	margin-left: 5rem;
+	margin-right: 8rem;
+}
+
+.sectionFour h2 {
+	font-size: 0.6rem;
+	color: white;
+	margin-left: 5rem;
+}
+
+.sectionFour p {
+	font-size: 20px;
+	text-align: left;
+    padding: 0.5rem;
+	width: 700px;
+}
+
+.sectionFive {
+	background-color: #E72360;
+}
+
+.sectionFive p {
+	text-align: center;
+	font-size: 20px;
+	margin-left: 24rem;
+	margin-right: 26rem;
+	padding: 2rem;
+	color: black;
+	font-weight: bold;
+}
+
 
 @media (max-width:768px) {
     .main {
@@ -43,12 +142,12 @@
 		align-items: center;
 		width: 100%;
 		height: 100%;
-		background-color: rgb(255, 255, 255);
+		background-color: rgb(245, 211, 211);
 	}
 
 	.main h1 {
-    font-size: 35px;
-	font-weight: 900;
+    font-size: 32px;
+	font-weight: 700;
 	line-height: 78px;
     color: #000;
 	}
@@ -63,12 +162,90 @@
 
 	.main img {
 		margin-top: 2rem;
-		width: 50%;
+		width: 45%;
 		max-width: 400px;
-		height: 100%;
-		max-height: 400px;
-		margin-left: 5rem;
+		height: 90%;
+		max-height: 300px;
 	}
+
+	.main h2 {
+     	margin-right: 2rem;
+	}
+
+	.sectionTwo h3 {
+		color: #E72A60;
+		font-size: 25px;
+		font-weight: 900;
+		line-height: 50px;
+		text-align: center;
+	}
+	
+	.sectionTwo p {
+		text-align: center;
+		font-size: 16px;
+		margin-left: 5rem;
+		margin-right: 7rem;
+		padding: 1rem;
+	}
+	
+	.sectionThree {
+		background-color: #702B4C;
+		height: 16.5rem;
+		padding: 2rem;
+	}
+	
+	.sectionThree p {
+		text-align: center;
+		font-size: 16px;
+		margin-left: 5rem;
+		margin-right: 7rem;
+		padding: 2rem;
+	}
+	
+	hr{
+		width: 40rem;
+    }
+	
+	.sectionFour {
+		background-color: #A33C5F;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding-left: 3rem;
+		height: 27rem;
+	}
+	
+	.sectionFour img {
+		width: 50%;
+		border-radius: 0.2rem;
+		margin-left: 10rem;
+		margin-right: 8rem;
+	}
+	
+	.sectionFour h2 {
+		font-size: 0.6rem;
+		color: white;
+		margin-left: 10rem;
+	}
+	
+	.sectionFour p {
+		font-size: 16px;
+		text-align: left;
+		padding: 0.5rem;
+		width: 700px;
+		margin-top: 1rem;
+	}
+	
+	.sectionFive p {
+		text-align: center;
+		font-size: 19px;
+		margin-left: 4rem;
+		margin-right: 6rem;
+		padding: 2rem;
+		color: black;
+		font-weight: bold;
+	}
+	
 }
 
 @media (max-width:425px) {
@@ -76,21 +253,19 @@
 		padding: 2rem;
 		display: flex;
 		flex-direction:column;
-		align-items: flex-start;
-		background-color: rgb(255, 255, 255);
 	}
 
 	.main h1 {
 		font-size: 25px;
 		font-weight: 800;
-		line-height: 60px;
+		line-height: 30px;
 		color: #000;
 	}
 
 	.main p {
 		margin-top: 20px;
 		font-size: 14px;
-		line-height: 34px;
+		line-height: 28px;
 		color: #000;
 		width: 100%;
 	
@@ -98,10 +273,79 @@
 
 	.main img {
 		margin-top: 2rem;
-		width: 60%;
-		max-width: 400px;
-		height: 100%;
-		max-height: 400px;
+		width: 50%;
+		margin-left: 4rem;
+
+	}
+
+	.sectionTwo h3 {
+		font-size: 20px;
+		line-height: 30px;
+	}
+	
+	.sectionTwo p {
+		text-align: center;
+		font-size: 14px;
+		margin-left: 1rem;
+		margin-right: 1rem;
+		padding: 1rem;
+		line-height: 25px;
+	}
+
+	.sectionThree {
+		background-color: #702B4C;
+		height: 18.5rem;
+		padding: 2rem;
+	}
+	
+	.sectionThree p {
+		text-align: center;
+		font-size: 14px;
+		margin-left: 1rem;
+		margin-right: 1rem;
+		padding: 1rem;
+		line-height: 25px;
+	}
+	
+	hr{
+		width: 19rem;
+    }
+	
+	.sectionFour {
+		display: flex;
+		flex-direction: column;
+		padding-left: 1rem;
+		height: 27rem;
+	}
+	
+	.sectionFour img {
+		width: 55%;
+		margin-left: 5rem;
+		margin-right: 8rem;
+		margin-top: 1rem;
+	}
+	
+	.sectionFour h2 {
+		font-size: 0.5rem;
+		color: white;
+		margin-left: 5rem;
+	}
+	
+	.sectionFour p {
+		font-size: 14px;
+		width: 380px;
+		line-height: 25px;
+		margin-top: 0.3rem;
+	}
+	
+	.sectionFive p {
+		text-align: center;
+		font-size: 17px;
+		margin-left: 3rem;
+		margin-right: 4rem;
+		padding: 2rem;
+		color: black;
+		font-weight: bold;
 	}
 }
 

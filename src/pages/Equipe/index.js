@@ -26,7 +26,7 @@ const Equipe = () => {
             />
           </a>
             <p className="titulo--card">Jumara Pimenta</p>
-            <p className="titulo--card">Lorem ipsum.</p>
+            <p className="descricao--integrante">Idealizadora, administradora e responsável pelo desenvolvimento front-end do site do projeto</p>
           </div>
 
           <div className="card--integrante">
@@ -38,7 +38,7 @@ const Equipe = () => {
             />
             </a>
             <p className="titulo--card">Klinger Santos</p>
-            <p className="titulo--card">Lorem ipsum.</p>
+            <p className="descricao--integrante">Idealizador, product designer e responsável pela pesquisa do projeto social</p>
           </div>
 
           <div className="card--integrante">
@@ -50,7 +50,7 @@ const Equipe = () => {
             />
             </a>
             <p className="titulo--card">Fernanda Pimenta</p>
-            <p className="titulo--card">Lorem ipsum.</p>
+            <p className="descricao--integrante">Publicitária, responsável pela comunicação do projeto</p>
           </div>
           {/* Falta rede social do Breno */}
           <div className="card--integrante">
@@ -62,7 +62,7 @@ const Equipe = () => {
             />
             </a>
             <p className="titulo--card">Breno Bigi</p>
-            <p className="titulo--card">Lorem ipsum.</p>
+            <p className="descricao--integrante">Publicitário, responsável pelo audiovisual do projeto</p>
           </div>
 
           <div className="card--integrante">
@@ -74,7 +74,7 @@ const Equipe = () => {
             />
             </a>
             <p className="titulo--card">Camilly Cardoso</p>
-            <p className="titulo--card">Lorem ipsum.</p>
+            <p className="descricao--integrante">Responsável pela administração da arrecadação e prospecção de voluntários</p>
           </div>
 
         </div>

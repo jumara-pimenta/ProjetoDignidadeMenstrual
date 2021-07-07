@@ -17,7 +17,10 @@ const Contribua = () => {
           <p>
             Ajude as pessoas que menstruam e vivem em situação de rua a
             possuírem os produtos básicos de higiene pessoal durante seu ciclo
-            menstrual. Contribua com o nosso projeto e seja um agente de mudança
+            menstrual.
+          </p>
+          <p>
+          Contribua com o nosso projeto e seja um agente de mudança
             nessa causa.
           </p>
         </div>

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import ImgFace from "../../assets/facebook.svg";
 import ImgInsta from "../../assets/instagram.svg";
 import ImgIN from "../../assets/linkedin.svg";
-import Logo from "../../assets/logo2.svg";
+import Logo from "../../assets/imgLogo.svg";
 
 import "./styles.css";
 
@@ -13,22 +13,22 @@ const Footer = () => {
       <div className="rodape">
         <div>
           <ul className="menuFooter">
-            <li>
+            <li className ="menu-item">
               <Link className="link" to="/">
                 Sobre
               </Link>
             </li>
-            <li>
+            <li className ="menu-item">
               <Link className="link" to="/contribua">
                 Contribua
               </Link>
             </li>
-            <li>
+            <li className ="menu-item">
               <Link className="link" to="/voluntariado">
                 Voluntariado
               </Link>
             </li>
-            <li>
+            <li className ="menu-item">
               <Link className="link" to="/equipe">
                 Equipe
               </Link>

@@ -1,32 +1,48 @@
 .main-equipe {
     background-color: rgb(255, 255, 255);
     width: 100%;
-    height: 30rem;
+    height: 32rem;
 }
 
 .tituloEquipe {
     font-size: 2rem;
     text-align: center;
-    color: black;
-    padding-top: 2rem;
-    color: black;
+    color: #E72A60;
+    padding-top: 5rem;
+    font-weight: bold;
 }
 
 .card--equipe {
     display: flex;
     justify-content: center;
+    align-items: flex-start;
     margin: 5rem;
+    margin-top: 3.5rem;
 }
 
 .img--card {
     width: 10rem;
-    border-radius: 10px;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
 }
 
+.card--integrante {
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .titulo--card {
-    color: black;
+    color: #4D203E;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.descricao--integrante {
+    color: #4D203E;
     font-size: 0.8rem;
     text-align: center;
 }
@@ -35,7 +51,11 @@
     .main-equipe {
         background-color: rgb(255, 255, 255);
         width: 100%;
-        height: 40rem;
+        height: 58rem;
+    }
+
+    .tituloEquipe {
+        font-size: 1.7rem;
     }
 
     .card--equipe {
@@ -51,7 +71,7 @@
     }
     
     .img--card {
-        width: 10rem;
+        width: 9rem;
         border-radius: 10px;
         margin-left: 2rem;
         margin-right: 2rem;
@@ -63,15 +83,12 @@
     .main-equipe {
         background-color: rgb(255, 255, 255);
         width: 100%;
-        height: 63rem;
+        height: 74rem;
     }
 
     .tituloEquipe {
         font-size: 1.5rem;
-        text-align: center;
-        color: black;
         padding-top: 2rem;
-        color: black;
     }
 
     .card--equipe {
@@ -91,5 +108,18 @@
         border-radius: 10px;
         margin-left: 2rem;
         margin-right: 2rem;
+    }
+
+    .titulo--card {
+        color: #4D203E;
+        font-size: 1rem;
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    .descricao--integrante {
+        color: #4D203E;
+        font-size: 0.7rem;
+        text-align: center;
     }
 }
