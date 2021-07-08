@@ -21,7 +21,7 @@ const Footer = () => {
             <li className ="menu-item">
               <Link className="link" to="/contribua">
                 Contribua
-              </Link>
+              </Link> 
             </li>
             <li className ="menu-item">
               <Link className="link" to="/voluntariado">

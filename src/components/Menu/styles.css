@@ -32,6 +32,11 @@
   text-decoration: none;
 }
 
+.link:hover {
+  color: #E72A60;
+  transition: .5s;
+}
+
 .imgLogo {
   display: flex;
   width: 12rem;
