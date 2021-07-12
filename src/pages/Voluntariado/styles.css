@@ -37,7 +37,7 @@
     text-decoration: none;
 }
 
-@media (max-width:768px){
+@media (max-width:800px){
     .main--voluntario {
         background-color: #4D203F;
         height: 23rem;
