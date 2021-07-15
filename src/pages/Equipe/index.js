@@ -51,10 +51,9 @@ const Equipe = () => {
             </a>
             <p className="titulo--card">Fernanda Pimenta</p>
             <p className="descricao--integrante">Publicitária, responsável pela comunicação do projeto</p>
-          </div>
-          {/* Falta rede social do Breno */}
+          </div>  
           <div className="card--integrante">
-            <a href="" target="_blank">
+            <a href="https://www.instagram.com/brenobigi/" target="_blank" rel="noreferrer">
             <img 
               className="img--card" 
               src={imgBreno} 
@@ -74,7 +73,7 @@ const Equipe = () => {
             />
             </a>
             <p className="titulo--card">Camilly Cardoso</p>
-            <p className="descricao--integrante">Responsável pela administração da arrecadação e prospecção de voluntários</p>
+            <p className="descricao--integrante">Responsável pela administração da arrecadação de itens e pela prospecção de voluntários</p>
           </div>
 
         </div>

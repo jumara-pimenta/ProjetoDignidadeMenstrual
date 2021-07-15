@@ -17,7 +17,7 @@ const Voluntariado = () => {
           </p>
         </div>
         <div>
-        <a class="button" href="https://docs.google.com/forms/d/1pNY12nVF_LBgrftO35WW_PbWdVKwyjsbyjSmpkh6pwI/edit" rel="noreferrer" target="_blank">QUERO ME VOLUNTARIAR!</a>       
+        <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSfFSiAY7FhfrxtHEwWqC-182lMGP6x2iPzNlcFtcnOzn7KVqw/viewform" rel="noreferrer" target="_blank">QUERO ME VOLUNTARIAR!</a>       
         </div>
       </section>
 
