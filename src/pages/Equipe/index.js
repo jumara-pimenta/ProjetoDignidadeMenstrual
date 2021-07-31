@@ -26,7 +26,7 @@ const Equipe = () => {
             />
           </a>
             <p className="titulo--card">Jumara Pimenta</p>
-            <p className="descricao--integrante">Idealizadora, administradora e responsável pelo desenvolvimento front-end do site do projeto</p>
+            <p className="descricao--integrante">Co-idealizadora, administradora e responsável pelo desenvolvimento front-end do site do projeto</p>
           </div>
 
           <div className="card--integrante">
@@ -38,7 +38,7 @@ const Equipe = () => {
             />
             </a>
             <p className="titulo--card">Klinger Santos</p>
-            <p className="descricao--integrante">Idealizador, product designer e responsável pela pesquisa do projeto social</p>
+            <p className="descricao--integrante">Co-idealizador, product designer e responsável pela pesquisa do projeto social</p>
           </div>
 
           <div className="card--integrante">
@@ -73,7 +73,7 @@ const Equipe = () => {
             />
             </a>
             <p className="titulo--card">Camilly Cardoso</p>
-            <p className="descricao--integrante">Responsável pela administração da arrecadação de itens e pela prospecção de voluntários</p>
+            <p className="descricao--integrante">Responsável pela arrecadação de itens e pela prospecção de voluntários</p>
           </div>
 
         </div>
