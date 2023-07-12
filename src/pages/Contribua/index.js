@@ -13,16 +13,11 @@ const Contribua = () => {
       <Menu />
 
       <section className="main--contribua">
+        <div className="apoie">
+          <h1>APOIE ESSA CAUSA!</h1>
+        </div>
         <div className="texto--contribua">
-          <p>
-            Ajude as pessoas que menstruam e vivem em situação de rua a
-            possuírem os produtos básicos de higiene pessoal durante seu ciclo
-            menstrual.
-          </p>
-          <p>
-          Contribua com o nosso projeto e seja um agente de mudança
-            nessa causa.
-          </p>
+          <p>Contribua com o nosso projeto e seja um agente de mudança!</p>
         </div>
         <div className="formasDePagamento">
           <img
@@ -46,9 +41,7 @@ const Contribua = () => {
             Você também pode nos ajudar doando os produtos necessários em um
             ponto de coleta do projeto.
           </p>
-          <p>Entre em contato com a gente através das
-            nossas redes sociais.
-          </p>
+          <p>Entre em contato com a gente através das nossas redes sociais.</p>
         </div>
       </section>
 

@@ -9,15 +9,21 @@ const Voluntariado = () => {
       <Menu />
       <section className="main--voluntario">
         <div className="texto--voluntariado">
-          <h1>
-            Ficou interessado? Quer participar do projeto? 
-          </h1>
+          <h1>Ficou interessado? Quer participar do projeto?</h1>
           <p>
-            Clica no botão abaixo, preencha o formulário, aguarde nosso contato e vem fazer mudança com a gente.
+            Clica no botão abaixo, preencha o formulário, aguarde nosso contato
+            e vem fazer mudança com a gente.
           </p>
         </div>
         <div>
-        <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSfFSiAY7FhfrxtHEwWqC-182lMGP6x2iPzNlcFtcnOzn7KVqw/viewform" rel="noreferrer" target="_blank">QUERO ME VOLUNTARIAR!</a>       
+          <a
+            class="button"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSeJpmgymcGejyXieBIai6CLnrx5am_TeNvDoUnRGCJBQiJTBQ/closedform"
+            rel="noreferrer"
+            target="_blank"
+          >
+            QUERO ME VOLUNTARIAR!
+          </a>
         </div>
       </section>
 

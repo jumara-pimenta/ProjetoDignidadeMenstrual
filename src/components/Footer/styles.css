@@ -48,6 +48,7 @@
 
 .autora {
     color: white;
+    font-weight: 500;
 }
 
 @media (max-width:800px){
